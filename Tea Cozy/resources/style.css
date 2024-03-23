@@ -1,0 +1,188 @@
+*{
+
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    opacity: 1;
+}
+
+header{
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    align-items: center;
+    width: 100%;
+    padding-left: 10px;
+    z-index: 1;
+    height: 69px;
+    
+}
+
+.logo {
+    float: left;
+    padding: 5px 0px;
+}
+
+nav {
+    float: right;
+}
+
+nav li {
+    display: inline-block;
+    padding: 15px 15px;
+    margin-right: 10px;
+}
+
+.navbar img{
+    height: 50px;
+
+}
+.banner-slider-inner {
+    position: relative;
+}
+
+.banner-slider-main {
+    padding-top: 70px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.banner-slider-inner img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+.banner-text {
+    position: absolute;
+}
+.banner-text {
+    left: 0%;
+    position: absolute;
+    top: 50%;
+    width: 1203px;
+    padding: 10px 0px;
+}
+.banner-text h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 40px;
+}
+.banner-text h4 {
+    text-align: center;
+}
+
+.tea{
+    width: 1000px;
+    padding: 0px 130px
+}
+
+.tea h4{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+    font-size: 40px;
+}
+
+.tea h5{
+    text-align: center;
+    padding-top: 20px;
+    width: 100%;
+}
+.options img{
+    height:200px;
+    width: 300px;
+   
+}
+
+.opt1 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.opt2 {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.options p{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.mainloc img{
+    height: 500px;
+    width: 96%;
+    object-fit: cover;
+    margin: 0 20px;
+    
+}
+
+    
+
+.mainloc{
+    position: relative;
+    
+}
+
+
+.location{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+}
+
+
+.mainloc h2{
+    position:absolute;
+    top: 20%;
+    left: 43%;
+    text-align: center;
+    font-size: 35px;
+    background-color: transparent;
+}
+
+.loc{
+    width: 300px;
+    margin: 40px 15px;
+    background-color: black;
+    line-height: 60px;
+    padding-left: 25px;
+}
+
+.location{
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    position: absolute;
+    align-items: center;
+    top: 25%;
+    left: 5%;
+    background-color: transparent
+}
+
+.loc p{
+    text-align: center;
+}
+
+.loc h3{
+    text-align: center;
+}
+
+.footer{
+    height: 200px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.copy{
+    margin-left: 20px;
+    margin-bottom: 20px;;
+}
